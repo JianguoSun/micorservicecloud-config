@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: microservicecloud-config-loly-dev
+---
+spring:
+  profile: test
+  application:
+    name: microservicecloud-config-loly-test
